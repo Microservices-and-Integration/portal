@@ -1,0 +1,9 @@
+<div class="form-group">
+    <label for="userNaMe">User Name/Email</label>
+    <input type="text" class="form-control" id="userId" required [(ngModel)]="adminLoginModel.userId" name="userName"> 
+
+    <label for="secrete">Secrete</label>
+    <input type="password" class="form-control" id="secrete" required [(ngModel)]="adminLoginModel.secrete" name="password"> 
+
+    <button type="button" class="btn btn-default " (click)="onSubmit()">Sign In</button>
+  </div>
